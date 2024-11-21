@@ -1,0 +1,94 @@
+:root {
+  --background: #1E2022;
+  --primary: #8E44AD;
+  --secondary: #2ECC71;
+  --text: #F2F3F4;
+  --highlight: #F39C12;
+  --font: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: var(--primary);
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.site-logo {
+  height: 50px;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.site-navigation ul {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.site-navigation a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.site-navigation a:hover {
+  background: var(--highlight);
+  border-radius: 5px;
+}
+
+.book-slider {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.slider-heading {
+  font-size: 1.8rem;
+  color: var(--secondary);
+  margin-bottom: 30px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide p {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.site-footer {
+  background: var(--primary);
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.footer-text {
+  color: var(--text);
+  font-size: 0.9rem;
+}
